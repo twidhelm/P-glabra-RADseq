@@ -1,0 +1,109 @@
+
+
+22562       ## loci with > minsp containing data
+22562       ## loci with > minsp containing data & paralogs removed
+22562       ## loci with > minsp containing data & paralogs removed & final filtering
+
+## number of loci recovered in final data set for each taxon.
+taxon	nloci
+14689_TAS	7757
+14718_TAS	11545
+14720_TAS	14536
+14753_VIC	8487
+14763_VIC	13860
+14764_VIC	9472
+14766_VIC	7940
+14779_VIC	8049
+14792_VIC	7994
+14798_VIC	7464
+15538_CHI	13520
+15547_CHI	10754
+15551_CHI	17830
+15559_CHI	10261
+15562_CHI	11967
+15563_CHI	13073
+15565_CHI	11660
+15567_CHI	10313
+15578_CHI	13135
+15603_CHI	11877
+15951_NZN	14484
+15953_NZN	9619
+15963_NZN	8247
+15987_NZN	9707
+15988_NZN	8366
+15991_NZN	8794
+16039_NZS	8084
+16042_NZS	9375
+16043_NZS	9883
+16046_NZS	9206
+
+
+## nloci = number of loci with data for exactly ntaxa
+## ntotal = number of loci for which at least ntaxa have data
+ntaxa	nloci	saved	ntotal
+1	-
+2	-		-
+3	-		-
+4	1958	*	22562
+5	1671	*	20604
+6	1421	*	18933
+7	1233	*	17512
+8	1157	*	16279
+9	1014	*	15122
+10	986	*	14108
+11	844	*	13122
+12	810	*	12278
+13	819	*	11468
+14	778	*	10649
+15	755	*	9871
+16	741	*	9116
+17	718	*	8375
+18	708	*	7657
+19	694	*	6949
+20	653	*	6255
+21	657	*	5602
+22	635	*	4945
+23	610	*	4310
+24	627	*	3700
+25	590	*	3073
+26	553	*	2483
+27	543	*	1930
+28	502	*	1387
+29	487	*	885
+30	398	*	398
+
+
+## nvar = number of loci containing n variable sites (pis+autapomorphies).
+## sumvar = sum of variable sites (SNPs).
+## pis = number of loci containing n parsimony informative sites.
+## sumpis = sum of parsimony informative sites.
+	nvar	sumvar	PIS	sumPIS
+0	7751	0	13074	0
+1	5729	5729	5048	5048
+2	3408	12545	2051	9150
+3	2018	18599	1012	12186
+4	1217	23467	541	14350
+5	768	27307	345	16075
+6	530	30487	211	17341
+7	376	33119	128	18237
+8	281	35367	77	18853
+9	156	36771	38	19195
+10	130	38071	23	19425
+11	70	38841	7	19502
+12	38	39297	6	19574
+13	36	39765	1	19587
+14	22	40073	0	19587
+15	19	40358	0	19587
+16	6	40454	0	19587
+17	1	40471	0	19587
+18	2	40507	0	19587
+19	1	40526	0	19587
+20	2	40566	0	19587
+21	0	40566	0	19587
+22	0	40566	0	19587
+23	0	40566	0	19587
+24	0	40566	0	19587
+25	0	40566	0	19587
+26	1	40592	0	19587
+total var= 40592
+total pis= 19587
