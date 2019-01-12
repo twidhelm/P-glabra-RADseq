@@ -1,0 +1,112 @@
+
+
+8443        ## loci with > minsp containing data
+8443        ## loci with > minsp containing data & paralogs removed
+8443        ## loci with > minsp containing data & paralogs removed & final filtering
+
+## number of loci recovered in final data set for each taxon.
+taxon	nloci
+14718_TAS	6957
+14720_TAS	7529
+14747_VIC	4616
+14753_VIC	5596
+14761_VIC	5345
+14763_VIC	7437
+14764_VIC	6519
+15516_CHI	4231
+15538_CHI	7250
+15551_CHI	8082
+15562_CHI	6638
+15563_CHI	7161
+15578_CHI	7319
+15603_CHI	6827
+15910_NZN	5731
+15911_NZN	6132
+15913_NZN	5602
+15951_NZN	7539
+15953_NZN	6135
+15963_NZN	5321
+15982_NZN	5413
+15987_NZN	6241
+15988_NZN	5809
+15991_NZN	6115
+16002_NZS	6819
+16003_NZS	4120
+16039_NZS	5520
+16042_NZS	6202
+16043_NZS	6360
+16046_NZS	6185
+16140_PHO	4330
+17204_CAM	4238
+17206_NZS	5383
+
+
+## nloci = number of loci with data for exactly ntaxa
+## ntotal = number of loci for which at least ntaxa have data
+ntaxa	nloci	saved	ntotal
+1	-
+2	-		-
+3	-		-
+4	-		-
+5	-		-
+6	-		-
+7	-		-
+8	-		-
+9	-		-
+10	-		-
+11	-		-
+12	-		-
+13	-		-
+14	-		-
+15	-		-
+16	-		-
+17	682	*	8443
+18	653	*	7761
+19	599	*	7108
+20	546	*	6509
+21	621	*	5963
+22	614	*	5342
+23	592	*	4728
+24	530	*	4136
+25	533	*	3606
+26	518	*	3073
+27	479	*	2555
+28	440	*	2076
+29	418	*	1636
+30	404	*	1218
+31	353	*	814
+32	276	*	461
+33	185	*	185
+
+
+## nvar = number of loci containing n variable sites (pis+autapomorphies).
+## sumvar = sum of variable sites (SNPs).
+## pis = number of loci containing n parsimony informative sites.
+## sumpis = sum of parsimony informative sites.
+	nvar	sumvar	PIS	sumPIS
+0	1690	0	3342	0
+1	1992	1992	2368	2368
+2	1491	4974	1162	4692
+3	1035	8079	721	6855
+4	726	10983	341	8219
+5	526	13613	200	9219
+6	306	15449	124	9963
+7	225	17024	84	10551
+8	145	18184	51	10959
+9	105	19129	31	11238
+10	70	19829	8	11318
+11	59	20478	3	11351
+12	17	20682	6	11423
+13	26	21020	1	11436
+14	13	21202	1	11450
+15	10	21352	0	11450
+16	2	21384	0	11450
+17	1	21401	0	11450
+18	1	21419	0	11450
+19	0	21419	0	11450
+20	0	21419	0	11450
+21	3	21482	0	11450
+total var= 21482
+total pis= 11450
+sampled unlinked SNPs= 6753
+sampled unlinked bi-allelic SNPs= 6730

@@ -1,0 +1,106 @@
+
+
+1218        ## loci with > minsp containing data
+1218        ## loci with > minsp containing data & paralogs removed
+1218        ## loci with > minsp containing data & paralogs removed & final filtering
+
+## number of loci recovered in final data set for each taxon.
+taxon	nloci
+14718_TAS	1205
+14720_TAS	1203
+14747_VIC	1086
+14753_VIC	1139
+14761_VIC	1138
+14763_VIC	1202
+14764_VIC	1190
+15516_CHI	981
+15538_CHI	1191
+15551_CHI	1209
+15562_CHI	1182
+15563_CHI	1188
+15578_CHI	1210
+15603_CHI	1191
+15910_NZN	1155
+15911_NZN	1163
+15913_NZN	1142
+15951_NZN	1205
+15953_NZN	1151
+15963_NZN	1113
+15982_NZN	1157
+15987_NZN	1150
+15988_NZN	1166
+15991_NZN	1186
+16002_NZS	1184
+16003_NZS	1011
+16039_NZS	1145
+16042_NZS	1165
+16043_NZS	1179
+16046_NZS	1177
+16140_PHO	1021
+17204_CAM	1080
+17206_NZS	1135
+
+
+## nloci = number of loci with data for exactly ntaxa
+## ntotal = number of loci for which at least ntaxa have data
+ntaxa	nloci	saved	ntotal
+1	-
+2	-		-
+3	-		-
+4	-		-
+5	-		-
+6	-		-
+7	-		-
+8	-		-
+9	-		-
+10	-		-
+11	-		-
+12	-		-
+13	-		-
+14	-		-
+15	-		-
+16	-		-
+17	-		-
+18	-		-
+19	-		-
+20	-		-
+21	-		-
+22	-		-
+23	-		-
+24	-		-
+25	-		-
+26	-		-
+27	-		-
+28	-		-
+29	-		-
+30	404	*	1218
+31	353	*	814
+32	276	*	461
+33	185	*	185
+
+
+## nvar = number of loci containing n variable sites (pis+autapomorphies).
+## sumvar = sum of variable sites (SNPs).
+## pis = number of loci containing n parsimony informative sites.
+## sumpis = sum of parsimony informative sites.
+	nvar	sumvar	PIS	sumPIS
+0	228	0	464	0
+1	284	284	307	307
+2	214	712	181	669
+3	163	1201	126	1047
+4	97	1589	58	1279
+5	83	2004	29	1424
+6	48	2292	20	1544
+7	31	2509	14	1642
+8	22	2685	7	1698
+9	18	2847	11	1797
+10	8	2927	1	1807
+11	12	3059	0	1807
+12	4	3107	0	1807
+13	4	3159	0	1807
+14	0	3159	0	1807
+15	2	3189	0	1807
+total var= 3189
+total pis= 1807
+sampled unlinked SNPs= 990
+sampled unlinked bi-allelic SNPs= 987
