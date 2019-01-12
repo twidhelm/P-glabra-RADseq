@@ -1,0 +1,38 @@
+$ python ../finerad_input.py --input glabra_UIC_1000min.alleles --minsample 109
+1708 loci for 216 samples written to glabra_UIC_1000min-noOG_50.alleles.min109.finerad
+
+$ ./../fineRADstructure/RADpainter paint glabra_UIC_1000min-noOG_50.alleles.min109.finerad
+Painting RAD tags from: glabra_UIC_1000min-noOG_50.alleles.min109.finerad
+No location ("Chr") info found - assuming the input is a simple data matrix
+The file seems to be in a SimpleMatrix format
+Processed: 100 tag loci in 0.676497 seconds(0.00676497 seconds per RAD locus)
+Processed: 200 tag loci in 1.2692 seconds(0.00634602 seconds per RAD locus)
+Processed: 300 tag loci in 1.84995 seconds(0.0061665 seconds per RAD locus)
+Processed: 400 tag loci in 2.53255 seconds(0.00633138 seconds per RAD locus)
+Processed: 500 tag loci in 3.12589 seconds(0.00625179 seconds per RAD locus)
+Processed: 600 tag loci in 3.7139 seconds(0.00618983 seconds per RAD locus)
+Processed: 700 tag loci in 4.30409 seconds(0.00614869 seconds per RAD locus)
+Processed: 800 tag loci in 5.03716 seconds(0.00629645 seconds per RAD locus)
+Processed: 900 tag loci in 5.66858 seconds(0.00629842 seconds per RAD locus)
+Processed: 1000 tag loci in 6.34703 seconds(0.00634703 seconds per RAD locus)
+Processed: 1100 tag loci in 7.01595 seconds(0.00637814 seconds per RAD locus)
+Processed: 1200 tag loci in 7.74086 seconds(0.00645072 seconds per RAD locus)
+Processed: 1300 tag loci in 8.39647 seconds(0.00645883 seconds per RAD locus)
+Processed: 1400 tag loci in 9.04067 seconds(0.00645762 seconds per RAD locus)
+Processed: 1500 tag loci in 9.70039 seconds(0.00646693 seconds per RAD locus)
+Processed: 1600 tag loci in 10.3575 seconds(0.00647342 seconds per RAD locus)
+Processed: 1700 tag loci in 11.0565 seconds(0.00650382 seconds per RAD locus)
+14682_TAS	1705.25
+14682_TAS	1708
+Printing missingness per individual to: glabra_UIC_1000min-noOG_50.alleles.min109_missingness.out
+Theoretical c = 0.00930233
+Jackknife c = 0.0730447
+notInformative = 0
+Printing the final coancestry matrix to glabra_UIC_1000min-noOG_50.alleles.min109_chunks.out
+Analysis completed in: 11.5893 seconds (0.0067853 seconds per RAD locus)
+
+$ ./../fineRADstructure/finestructure -x 100000 -y 100000 -z 1000 glabra_UIC_1000min-noOG_50.alleles.min109_chunks.out glabra_UIC_1000min_50.alleles.mcmc.xml
+
+
+
+./finestructure -m T -x 10000 glabra_UIC_1000min-noOG_50.alleles.min109_chunks.out glabra_UIC_1000min_50.alleles.mcmc.xml glabra_UIC_1000min_50.alleles.mcmcTree.xml &
