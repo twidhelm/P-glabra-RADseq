@@ -1,9 +1,3 @@
-#### https://grunwaldlab.github.io/Population_Genetics_in_R/gbs_analysis.html
-
-setwd("C:/Users/twidhelm/Dropbox/P.glabra/396_samples/Pop_gen_tutorial/")
-
-setwd("~/Dropbox/P.glabra/396_samples/Pop_gen_tutorial/")
-
 library(vcfR)
 library(poppr)
 library(ape)
