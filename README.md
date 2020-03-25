@@ -1,5 +1,6 @@
 # P-glabra-RADseq
-Codes of RADseq data analyses for P. glabra project
+Scripts of RADseq population genomic analyses for Pseudocyphellaria glabra project
 
 [IQ-TREE_code](./IQTREE_code.sh)
 command for IQ-TREE analysis
+
