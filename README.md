@@ -1,5 +1,5 @@
 # P-glabra-RADseq
-## RADseq population genomic analyses of Pseudocyphellaria glabra populations in Australia, Chile, and New Zealand
+## RADseq population genomic analyses of *Pseudocyphellaria glabra* populations in Australia, Chile, and New Zealand
 
 ### [IQ-TREE code](./IQTREE_code.sh)
 Command for IQ-TREE analysis
@@ -9,3 +9,6 @@ R codes for population genomic analyses: Data conversion, distance matrix, minim
 
 ### [k-means clustering analysis](./k-clustering_viridis.R)
 R codes for k-means clustering analyses
+
+### [P. glabra reference genome](./Metawatt_sorted_fungal_scaffolds_9JAN18.fasta)
+Contigs sorted with MetaWatt Binner version 3.5.3 in fasta format
