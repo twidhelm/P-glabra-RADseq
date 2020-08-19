@@ -6,10 +6,10 @@ Command for IQ-TREE analysis:
 Input data: [unlinked SNPs](./params_glabra_no_CAM_PHO_min1000.unlinked_snps)
 
 ### [Population genomic analyses](./pop_gen_glabra_301samples.R)
-R codes for population genomic analyses: Data conversion, distance matrix, minimum spanning network (MSN), principal components analysis (PCA), and discriminant analysis of principal components analysis (DAPC): Input data [VCF file](./glabra_no_CAM_PFR_PHO_min1000.vcf)
+R codes for population genomic analyses: Data conversion, distance matrix, minimum spanning network (MSN), principal components analysis (PCA), and discriminant analysis of principal components analysis (DAPC): Input data [VCF file](./glabra_no_CAM_PFR_PHO_min1000.recode.vcf)
 
 ### [Clustering analysis](./k-clustering_viridis.R)
-R codes for K-means clustering analysis: Input data [VCF file](./glabra_no_CAM_PFR_PHO_min1000.vcf)
+R codes for K-means clustering analysis: Input data [VCF file](./glabra_no_CAM_PFR_PHO_min1000.recode.vcf)
 
 ### [*P. glabra* reference genome](./Metawatt_sorted_fungal_scaffolds_9JAN18.fasta)
 Contigs sorted with MetaWatt Binner version 3.5.3 in fasta format
